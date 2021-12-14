@@ -4,7 +4,9 @@
         <meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width"/>
 		
-		<!-- <link rel="stylesheet" href="style.css" media ="screen" />  -->
+		<link rel="stylesheet" href="style.css" media ="screen" /> 
+		
+		
 		<!-- <link rel="stylesheet" href="style.css"  -->
 			<!-- media="screen and (min-width:1024px)"/> -->
 		<!-- <link rel="stylesheet" href="tab.css"  -->
@@ -14,23 +16,43 @@
 		<!-- <link rel="stylesheet" href="smallmob.css"  -->
 			<!-- media="screen and (max-width:479px)"/> -->
 			
-		<link rel="stylesheet/less" type="text/css" href="style.less" media ="screen" /> 
-		<link rel="stylesheet/less" type="text/css" href="style.less" 
-			media="screen and (min-width:1024px)" />
-		<link rel="stylesheet/less" type="text/css" href="tab.less"  
-			media="screen and (min-width:768px) and (max-width:1023px)"/>
-		<link rel="stylesheet/less" type="text/css" href="bigmob.less"  
-			media="screen and (min-width:480px) and (max-width:767px)"/>
-		<link rel="stylesheet/less" type="text/css" href="smallmob.less"  
-			media="screen and (max-width:479px)"/>
-		<script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
+		<!-- <link rel="stylesheet/less" type="text/css" href="style.less" media ="screen" />  -->
+		<!-- <link rel="stylesheet/less" type="text/css" href="style.less"  -->
+			<!-- media="screen and (min-width:1024px)" /> -->
+		<!-- <link rel="stylesheet/less" type="text/css" href="tab.less"   -->
+			<!-- media="screen and (min-width:768px) and (max-width:1023px)"/> -->
+		<!-- <link rel="stylesheet/less" type="text/css" href="bigmob.less"   -->
+			<!-- media="screen and (min-width:480px) and (max-width:767px)"/> -->
+		<!-- <link rel="stylesheet/less" type="text/css" href="smallmob.less"   -->
+			<!-- media="screen and (max-width:479px)"/> -->
+		<!-- <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script> -->
 		
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-		<title>Task 4</title>
+		<title>Task 6</title>
+		
+		<script>
+			var start = new Date;
+			var end1 = new Date;
+			var end = null;
+			var end2 = new Date;
+			
+			document.addEventListener("DOMContentLoaded", () => {
+				 end1 = new Date;
+			  console.log( "Время загрузки DOMContentLoaded " + (end1 - start));
+			});
+
+			window.onload = function() {
+				end2 = new Date;
+
+			  console.log("Время загрузки onload " + (end2 - start) + " ms"  );
+			  };
+		</script>
+		
+		
     </head>
     <body>
 	
