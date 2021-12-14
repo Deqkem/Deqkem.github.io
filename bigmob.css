@@ -1,0 +1,95 @@
+/* 480px-767px */
+body header .header_inner {
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px 0;
+}
+body header .header_inner nav {
+  margin-top: 10px;
+}
+body header .header_inner nav ul {
+  font-size: 10px;
+  padding-inline-start: 0px;
+}
+body header .header_inner nav ul li {
+  margin-left: 20px;
+  font-size: 10px;
+}
+body .intro {
+  height: 450px;
+}
+body .intro .intro_inner h1 {
+  font-size: 18px;
+}
+body .intro .intro_inner p {
+  font-size: 13px;
+}
+body main .features {
+  justify-content: center;
+  flex-direction: column;
+}
+body main .features .features_item {
+  width: 100%;
+  padding: 0px;
+}
+body main .works {
+  justify-content: center;
+  flex-direction: column;
+}
+body main .works .works_item {
+  width: 100%;
+}
+body main .team {
+  margin-top: 15px;
+}
+body main .team .team_inner {
+  justify-content: center;
+  flex-direction: column;
+}
+body main .team .team_inner .team_item {
+  width: 100%;
+  text-align: center;
+}
+body main .team .team_inner img {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+body main .team .team_inner .social {
+  justify-content: center;
+}
+body main .clients .clients_item {
+  justify-content: center;
+  flex-direction: column;
+}
+body main .clients .clients_item .clients_left {
+  width: 100%;
+}
+body main .clients .clients_item .clients_left img {
+  width: 100%;
+}
+body main .clients .clients_item .clients_right {
+  width: 100%;
+  padding-left: 0px;
+}
+body main .clients .clients_item .clients_right h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+body main .clients .clients_item .clients_right p {
+  font-size: 10px;
+  text-align: center;
+}
+body main .download h2 {
+  font-size: 24px;
+}
+body footer .footer_iner {
+  padding-top: 30px;
+  padding-bottom: 45px;
+  justify-content: center;
+  flex-direction: column;
+}
+body footer .footer_iner .footer_item {
+  width: 100%;
+}
